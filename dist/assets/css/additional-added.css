@@ -109,21 +109,21 @@
   }
   .img-overlay {
     position: absolute;
-    background-color:#0d0d0d6c;
+    background-color:#0d0d0d86;
     height: 100%;
     width: 100%;
     top: 0;
   }
   .img-overlay2{
     position: absolute;
-    background-color:#0d0d0d67;
+    background-color:#0d0d0da2;
     height: 100%;
     width: 100%;
     top: 0;
   }
   .img-overlay3{
     position: absolute;
-    background-color:#0d0d0da6;
+    background-color:#0d0d0dab;
     height: 100%;
     width: 100%;
     top: 0;
@@ -197,7 +197,10 @@ height: 200px;
 .about-title{
   font-size: 33px !important;
 }
-
+.is-vis{
+  margin-bottom: 55px !important;
+  margin-left: -15px !important;
+}
 
 .center-align-grid{
   margin-top: 10%;
@@ -229,6 +232,11 @@ grid-template-columns: 50% 50%;
 
 
   @media screen and (max-width: 1000px) {
+    .about-title{
+      line-height: 35px !important;
+      margin-top: 33px !important;
+
+    }
    .mob-grid{
     height: 100vh;
     display: grid;

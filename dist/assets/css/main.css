@@ -1827,7 +1827,7 @@ body {
 .outer-nav>li::before {
     content: "";
     position: absolute;
-    top: 35%;
+    top: 2%;
     left: 95%;
     /* -webkit-transform: translate(-50%, -25%);
     transform: translate(-50%, -25%);
