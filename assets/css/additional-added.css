@@ -1,0 +1,290 @@
+
+.slider--item-image img{
+    height: 188px !important;
+    object-fit: none;    
+  }
+  .slider--item-center img{
+    height: 288px !important;
+    width:288px !important;
+    border-radius: 50%;
+  }
+   
+  .img-grid-section-one img{
+  /* height: 222px; */
+  width:100%;
+  object-fit: cover;
+   
+    background: -webkit-linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(220, 66, 37, 0.5) 100%); /* Chrome10+,Safari5.1+ */
+  }
+  
+  .common-banner-section {
+    position: relative;
+  }
+  .banner-image {
+      height: 350px;
+      width: 100%;
+      object-fit: cover;
+    }
+  
+    .overlay {
+      position: absolute;
+      background-color:#0d0d0d6c;
+      height: 100%;
+      width: 100%;
+      top: 0;
+    }
+    .overlayabout{
+      position: absolute;
+      background-color:#0d0d0dcb !important;
+      height: 100%;
+      width: 100%;
+      top: 0;
+    }
+  
+    .text-block {
+      position: absolute;
+      top: 50%;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      width: 100%;
+      z-index: 2;
+  
+  
+    }
+    .text-block  h3 {
+        text-align: center;
+        color: #ffffff;
+        text-transform: uppercase;
+  
+      }
+      .text-block h2{
+        font-size: 32px;
+        line-height: 34px;
+      }
+      .clubber-logo{
+        height: 66px;
+        width: 66px;
+      }
+  
+ 
+      .contain-fit{
+          object-fit: contain !important;
+      }
+      .cover-fit{
+          object-fit: cover !important;
+      }
+ 
+ .logo-name, .wh-fnt{
+    /* font-family: 'Train One', cursive !important; */
+    font-family: 'Zilla Slab Highlight', cursive !important;
+    text-transform: uppercase;
+
+ }
+ .logo-name-loading {
+  font-family: 'Zilla Slab Highlight', cursive !important;
+  text-transform: uppercase;
+  font-size: 40px;
+ }
+
+ h1 ,h2,h3, h4, h4, h5,h6{
+    /* font-family: 'Kiwi Maru', serif !important; */
+    /* font-family: 'Dela Gothic One', cursive !important; */
+    font-family: 'Potta One', cursive !important;
+   
+
+  }
+  p, span, li, a {
+    /* font-family: 'New Tegomin', serif !important; */
+    /* font-family: 'Zilla Slab Highlight', cursive !important; */
+    font-family: 'Kiwi Maru', serif !important;
+    font-weight: 900 !important;
+    line-height: 22px !important;
+     
+
+   
+  }
+
+  .background-overlay{
+      position: relative;
+  }
+  .img-overlay {
+    position: absolute;
+    background-color:#0d0d0d86;
+    height: 100%;
+    width: 100%;
+    top: 0;
+  }
+  .img-overlay2{
+    position: absolute;
+    background-color:#0d0d0da2;
+    height: 100%;
+    width: 100%;
+    top: 0;
+  }
+  .img-overlay3{
+    position: absolute;
+    background-color:#0d0d0dab;
+    height: 100%;
+    width: 100%;
+    top: 0;
+  }
+  .intro-grid-under{
+      display: grid;
+      grid-template-columns: repeat(3, auto);
+      grid-gap: 11px;
+      margin-top: 11px;
+     
+  }
+ 
+  .intro-grid-under img{
+   height: 200px;
+      width: 100%;
+      object-fit: cover;
+  }
+  .slider--item-description{
+      max-width: 100% !important;
+  }
+  .contact--lockup .modal{
+background-color: #080808a9;
+  }
+.map{
+
+
+    margin-top: 82px;
+    height: 100vh;
+    /* margin-left: 9%; */
+}
+
+.lnd-section-grid{
+  display: grid;
+  grid-template-columns:repeat(3, auto);
+  margin-top:77px;
+  /* grid-gap: 3px; */
+  
+}
+.homesection-desc{
+
+}
+.lnd-section-grid img{
+  width:100%;
+  height: 300px;
+  object-fit: cover;
+}
+#page {
+  display: none;
+}
+#loading {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
+  /* background-image: url("http://i.stack.imgur.com/MnyxU.gif"); */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.logo-loading{
+width: 333px;
+height: 333px;
+}
+.logo-giff{
+width: 250px;
+height: 200px;
+}
+.about-title{
+  font-size: 33px !important;
+}
+.is-vis{
+  margin-bottom: 55px !important;
+  margin-left: -15px !important;
+}
+
+.center-align-grid{
+  margin-top: 10%;
+  display: grid;
+  place-items: center;
+}
+
+  @media screen and (min-width:1000px){
+    .hed-top{
+      line-height: 90px !important;
+    }
+    .about-title{
+      font-size: 33px !important;
+    }
+    .desk-hide{
+    display : none;
+    }
+    .intro-grid{
+display: grid;
+grid-template-columns: 50% 50%;
+
+}
+.about--banner{
+  margin-left: 5%;
+}
+  }
+
+
+
+
+  @media screen and (max-width: 1000px) {
+    .about-title{
+      line-height: 35px !important;
+      margin-top: 33px !important;
+
+    }
+   .mob-grid{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+   }
+   .contact-grid-gallery{
+     display: grid;
+     grid-template-columns: 100%;
+     height:100vh;
+     display: grid;
+     
+   }
+   .contact-grid-gallery img{
+width:100%;
+object-fit: cover;
+   }
+   .contact{
+     z-index: 99 !important;
+   }
+
+   .home-mob-img{
+     width: 100% !important;
+     height: 220px !important;
+     object-fit: cover !important;
+     display: block !important;
+
+   }
+    .mob-hide{
+      display: none;
+    }
+    .intro-grid{
+        margin-top:22px;
+    }
+    .intro-grid-under{
+        grid-template-columns: 50% 50%;
+
+    }
+
+    .home-page-image{
+      /* height: 100vh; */
+      object-fit: cover;
+    }
+    .slider--item-center img{
+
+      height: 100% !important;
+      width: 100% !important;
+    }
+    .mob-top-pad{
+  margin-top: 88px !important;
+    }
+  }
