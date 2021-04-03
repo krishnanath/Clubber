@@ -290,6 +290,16 @@ object-fit: cover;
   }
 
   @media screen and (max-width: 768px){
+
+    .logo-loading{
+      width: 122px;
+      height: 122px;
+      }
+      .logo-giff{
+      width: 200px;
+      height: 150px;
+      }
+
     .mob-ls-height{
       height: 80px !important;
 
