@@ -233,7 +233,7 @@ grid-template-columns: 50% 50%;
 
   @media screen and (max-width: 1000px) {
     .about-title{
-      line-height: 35px !important;
+      line-height: 35px ;
       margin-top: 33px !important;
 
     }
@@ -287,4 +287,26 @@ object-fit: cover;
     .mob-top-pad{
   margin-top: 88px !important;
     }
+  }
+
+  @media screen and (max-width: 768px){
+    .mob-ls-height{
+      height: 80px !important;
+
+    }
+
+
+    h1 ,h2,h3, h4, h4, h5,h6{
+      /* font-family: 'Kiwi Maru', serif !important; */
+      /* font-family: 'Dela Gothic One', cursive !important; */
+      font-family: 'Potta One', cursive !important;
+     font-size: 22px !important;
+     line-height: 30px !important;
+  
+    }
+    p, span,li , a {
+      font-size: 14px !important;
+      line-height: 16px !important;
+    }
+
   }
