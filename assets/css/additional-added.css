@@ -195,7 +195,7 @@ width: 250px;
 height: 200px;
 }
 .about-title{
-  font-size: 33px !important;
+  font-size: 33px;
 }
 .is-vis{
   margin-bottom: 55px !important;
@@ -330,6 +330,9 @@ object-fit: cover;
      font-size: 15px !important;
      line-height: 20px !important;
   
+    }
+    .about-title {
+      font-size: 16px !important;
     }
     p, span,li , a {
       font-size: 8px !important;
