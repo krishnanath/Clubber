@@ -320,3 +320,19 @@ object-fit: cover;
     }
 
   }
+
+  @media screen and (max-width:333px){
+    .home-page-image{
+      height: 200px !important;
+    }
+    h1 ,h2,h3, h4, h4, h5,h6{
+   
+     font-size: 15px !important;
+     line-height: 20px !important;
+  
+    }
+    p, span,li , a {
+      font-size: 8px !important;
+      line-height: 12px !important;
+    }
+  }
